@@ -1,0 +1,26 @@
+name: Go Release
+on:
+  push:
+    tags:
+      - 'v*'  # Trigger only on version tags (e.g., v1.0.0)
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.22.4'
+      - name: Build binary
+        run: go build -o goprobe ./cmd/main.go
+      - name: Archive binary
+        run: |
+          tar -czf goprobe.tar.gz goprobe
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: goprobe.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
