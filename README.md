@@ -45,6 +45,8 @@ Probers:
 -   WebSocket
 -   DNS
 -   SSH
+-   Dubbo
+-   Thrift
 -   Client
     -   Redis
     -   MySQL
