@@ -1,20 +1,18 @@
-# goprobe
+<h1>goprobe</h1>
 
-A high availability prober.
+Goprobe is an active probing tool designed for **high availability**.
 
-- [goprobe](#goprobe)
-  - [1. Introduction](#1-introduction)
-  - [2. Quick Start](#2-quick-start)
-  - [3. Features](#3-features)
-  - [4. Configure](#4-configure)
-  - [n-1. Roadmap](#n-1-roadmap)
-  - [n. License](#n-license)
+<h2>Table of Contents</h2>
 
-## 1. Introduction
 
-Goprobe is an active probing tool designed for _high availability_. 
+- [1. Quick Start](#1-quick-start)
+- [2. Features](#2-features)
+- [3. Usage](#3-usage)
+- [4. Configure](#4-configure)
+- [n-1. Roadmap](#n-1-roadmap)
+- [n. License](#n-license)
 
-## 2. Quick Start
+## 1. Quick Start
 
 ```shell
 ./goprobe
@@ -32,8 +30,9 @@ POST /task
 DELETE /task/:id
 ```
 
-## 3. Features
+API Docs See:
 
+## 2. Features
 
 Probers:
 
@@ -73,8 +72,9 @@ Metrics export:
 
 -   Promethues
 
-## 4. Configure
+## 3. Usage
 
+## 4. Configure
 
 ## n-1. Roadmap
 
