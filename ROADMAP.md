@@ -1,9 +1,10 @@
 # Roadmap
 
+-   [ ] Basic framework
 -   [ ] Implement HTTP prober
 -   [ ] Implement TCP prober
 -   [ ] Export probe metrics
 
--   [ ] UDP
--   [ ] SSH
--   [ ] gPRC
+-   [ ] Implement UDP prober
+-   [ ] Implement SSH porber
+-   [ ] Implement gPRC porber

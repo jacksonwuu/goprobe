@@ -1,9 +1,13 @@
-<h1>goprobe</h1>
+<h1>GoProbe</h1>
 
-Goprobe is an active probing tool designed for **high availability**.
+GoProbe is an active probing tool designed for **high availability**.
+
+GoProbe is expected to work even if:
+
+- Some of it's replicas failed due to some reason.
+- 
 
 <h2>Table of Contents</h2>
-
 
 - [1. Quick Start](#1-quick-start)
 - [2. Features](#2-features)
@@ -13,6 +17,9 @@ Goprobe is an active probing tool designed for **high availability**.
 - [n. License](#n-license)
 
 ## 1. Quick Start
+
+
+start se
 
 ```shell
 ./goprobe
@@ -56,21 +63,9 @@ Probers:
     -   Kafka
     -   and more...
 
-Notifiers:
+Event
 
--   Slack
--   Email
--   Telegram
--   Discord
--   Log
--   SMS
--
-
-Event:
-
--   ....
-
-Metrics export:
+Metrics export
 
 -   Promethues
 
